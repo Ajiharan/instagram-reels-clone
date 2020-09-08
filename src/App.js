@@ -1,24 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import "./App.css";
+import VideoCard from "./videos/VideoCard";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      {/* bem naming convention */}
+      <div className="app__top">
+        <img
+          src="https://www.freepnglogos.com/uploads/download-instagram-png-logo-20.png"
+          alt="instagram_logo"
+          className="app__logo"
+        />
+        <h1>Reels</h1>
+      </div>
+      <div className="app__videos">
+        <VideoCard />
+        <VideoCard />
+      </div>
     </div>
   );
 }
