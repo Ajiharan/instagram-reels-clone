@@ -14,7 +14,7 @@ function App() {
       {/* bem naming convention */}
       <div className="app__top">
         <img
-          src="https://www.freepnglogos.com/uploads/download-instagram-png-logo-20.png"
+          src="https://firebasestorage.googleapis.com/v0/b/instagram-reels-clone-dd86e.appspot.com/o/images%2F%E2%80%94Pngtree%E2%80%94instagram%20logo%20social%20media%20instagram_3572487.png?alt=media&token=0ee78c66-f5d0-4861-a6d2-fc2361d0290a"
           alt="instagram_logo"
           className="app__logo"
         />
@@ -27,7 +27,7 @@ function App() {
             channel={data.channel}
             avatarSrc={data.avatarSrc}
             song={data.song}
-            url="https://instagram.fcmb3-1.fna.fbcdn.net/v/t50.2886-16/118726380_989202731527408_2826746828715567401_n.mp4?_nc_ht=instagram.fcmb3-1.fna.fbcdn.net&amp;_nc_cat=104&amp;_nc_ohc=xoHhH1tidPMAX_GswEe&amp;oe=5F5998D7&amp;oh=2be4982577f612cf6de5cba2cafe4c99"
+            url="https://instagram.fcmb10-1.fna.fbcdn.net/v/t50.2886-16/116883084_334122384286007_1401210482154269416_n.mp4?_nc_ht=instagram.fcmb10-1.fna.fbcdn.net&amp;_nc_cat=111&amp;_nc_ohc=utdzcL3l0EkAX9gVui2&amp;oe=5F61CE66&amp;oh=ce24f5fe1f52f5c3afc76ff7e17b224e"
             like={data.like}
             shares={data.shares}
           />

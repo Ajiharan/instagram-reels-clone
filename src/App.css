@@ -27,9 +27,12 @@ html {
   max-height: 1000px;
   overflow: scroll;
   scroll-snap-type: y mandatory;
+  /* iE,safari */
   -ms-overflow-style: none;
+  /* firefox */
   scrollbar-width: none;
 }
+/* chrome */
 .app__videos::-webkit-scrollbar {
   display: none;
 }
