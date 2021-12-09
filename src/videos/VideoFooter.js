@@ -9,6 +9,7 @@ import ChatBubbleIcon from "@material-ui/icons/ChatBubble";
 import ShareIcon from "@material-ui/icons/Share";
 import Ticker from "react-ticker";
 const VideoFooter = ({ channel, like, avatarSrc, shares, song }) => {
+  console.log(avatarSrc);
   return (
     <div className="videoFooter">
       <div className="videoFooter__text">

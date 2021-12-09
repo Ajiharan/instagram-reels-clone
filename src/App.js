@@ -27,7 +27,7 @@ function App() {
             channel={data.channel}
             avatarSrc={data.avatarSrc}
             song={data.song}
-            url="https://instagram.fcmb10-1.fna.fbcdn.net/v/t50.2886-16/116883084_334122384286007_1401210482154269416_n.mp4?_nc_ht=instagram.fcmb10-1.fna.fbcdn.net&amp;_nc_cat=111&amp;_nc_ohc=utdzcL3l0EkAX9gVui2&amp;oe=5F61CE66&amp;oh=ce24f5fe1f52f5c3afc76ff7e17b224e"
+            url={data.url}
             like={data.like}
             shares={data.shares}
           />
